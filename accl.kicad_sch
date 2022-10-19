@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid eb31a445-483e-4692-b3ef-7b6fd263542f)
+
+  (paper "A5")
+
+  (title_block
+    (title "Pheonix ADXL")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "I2C" (shape bidirectional) (at 27.94 29.21 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 194d2f8a-7b78-4230-83b7-9ccb6b31a9d8)
+  )
+)

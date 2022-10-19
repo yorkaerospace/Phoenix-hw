@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "YAR_MCU")(type "KiCad")(uri "${KIPRJMOD}/YAR-Kicad-Libs/Components/YAR_MCU.kicad_sym")(options " pwr_sym_only")(descr ""))
+  (lib (name "YAR_Sensors")(type "KiCad")(uri "${KIPRJMOD}/YAR-Kicad-Libs/Components/YAR_Sensors.kicad_sym")(options " pwr_sym_only")(descr ""))
+  (lib (name "GPS_Components")(type "KiCad")(uri "/home/will/Projects/Viper/YAR-Kicad-Libs/Components/YAR_GPS.kicad_sym")(options "")(descr ""))
+)

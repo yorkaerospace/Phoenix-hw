@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid eb31a445-483e-4692-b3ef-7b6fd263542f)
+
+  (paper "A5")
+
+  (title_block
+    (title "Phoenix Barometer")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "I2C" (shape bidirectional) (at 26.67 25.4 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3f5cc4d6-5b78-4bd7-8e9e-e454f91faff5)
+  )
+)

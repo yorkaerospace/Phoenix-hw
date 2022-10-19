@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid eb31a445-483e-4692-b3ef-7b6fd263542f)
+
+  (paper "A5")
+
+  (title_block
+    (title "Phoenix MPU")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "I2C" (shape bidirectional) (at 21.59 20.32 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 73a2b7a1-f0af-4ad1-b9c2-60dea2f547c3)
+  )
+)

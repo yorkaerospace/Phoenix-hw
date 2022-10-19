@@ -687,14 +687,23 @@
     (path "/688abbba-4944-4666-a573-328b4833167b/81abba7b-65ef-4439-960f-9f1a27841048"
       (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
+    (path "/98b9ba68-a7d1-4405-8fd2-88489eecd46e/0685ecd2-f6a6-4014-bfd9-edfb22316726"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/70a2db30-f5f4-454e-9087-c4748b80a02d"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/98b9ba68-a7d1-4405-8fd2-88489eecd46e/91568a00-6e58-4338-a605-6e60624038ad"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/b02da1b6-1f39-4373-ae95-bd521c9daa4d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/973e92e2-e415-4dc5-9283-1d2d8aa34625/d052db0e-64e5-4b2d-8816-1320d7c06b9e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/98b9ba68-a7d1-4405-8fd2-88489eecd46e/ec0fc6a5-8380-416d-b659-e8e462fb53c2"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/fdc5bc93-cd8d-4811-bebe-254f9b5ae1b6"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
@@ -797,6 +806,9 @@
     )
     (path "/309c6768-19aa-4c3a-bc05-34d9b461510a"
       (reference "U?") (unit 1) (value "L70B_Module") (footprint "")
+    )
+    (path "/98b9ba68-a7d1-4405-8fd2-88489eecd46e/a087698f-6e77-482e-afb9-92734a0a3272"
+      (reference "U?") (unit 1) (value "~") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
     )
     (path "/973e92e2-e415-4dc5-9283-1d2d8aa34625/e9d165af-abdf-49f9-beea-a51c27a6ec26"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")

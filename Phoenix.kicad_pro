@@ -434,6 +434,14 @@
     [
       "afb488ed-53ad-4114-b45c-f29a780b24e7",
       "Accelerometer"
+    ],
+    [
+      "98b9ba68-a7d1-4405-8fd2-88489eecd46e",
+      "Flash Storage"
+    ],
+    [
+      "0ac888d5-4182-4a88-8f62-40ce12e3896a",
+      "Radio"
     ]
   ],
   "text_variables": {}

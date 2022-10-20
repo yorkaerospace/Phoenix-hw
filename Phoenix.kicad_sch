@@ -548,6 +548,18 @@
     (path "/08617620-a510-41ce-835f-5c8118772225/28e33941-b95a-45a0-a7c4-63d14d4c45a1"
       (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
     )
+    (path "/afb488ed-53ad-4114-b45c-f29a780b24e7/09f96bf4-b1d8-45b0-9a13-17964394a188"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/afb488ed-53ad-4114-b45c-f29a780b24e7/a2b6e34c-a1f8-4646-ab3e-f7a972800ee3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/afb488ed-53ad-4114-b45c-f29a780b24e7/c42352d3-7c78-429a-aab6-8ad9f3296a3a"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/afb488ed-53ad-4114-b45c-f29a780b24e7/d43de2c8-11d0-4a93-ab4b-d45362835e7a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/08617620-a510-41ce-835f-5c8118772225/c81a3b7e-67d8-4aa2-b586-f88c989ce2c9"
       (reference "AE1") (unit 1) (value "Antenna") (footprint "Connector_Coaxial:SMA_Amphenol_901-144_Vertical")
     )
@@ -607,6 +619,12 @@
     )
     (path "/973e92e2-e415-4dc5-9283-1d2d8aa34625/ba9eb375-d457-4f26-a90e-bfaa41cc45cb"
       (reference "C18") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/afb488ed-53ad-4114-b45c-f29a780b24e7/3640fa47-9d12-4fad-ab73-946c300ae4f6"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/afb488ed-53ad-4114-b45c-f29a780b24e7/fa8ed65b-9d95-4d12-bf99-672358bec659"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
     )
     (path "/688abbba-4944-4666-a573-328b4833167b/b4a95bc8-3a69-47db-a360-1bbd1ab3e123"
       (reference "D1") (unit 1) (value "1N4007") (footprint "Diode_SMD:D_SOD-123")
@@ -682,6 +700,9 @@
     )
     (path "/98b9ba68-a7d1-4405-8fd2-88489eecd46e/a087698f-6e77-482e-afb9-92734a0a3272"
       (reference "U4") (unit 1) (value "~") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
+    )
+    (path "/afb488ed-53ad-4114-b45c-f29a780b24e7/1c582209-738a-4e40-94f4-b8a6e7870a92"
+      (reference "U?") (unit 1) (value "ADXL343") (footprint "Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y")
     )
     (path "/973e92e2-e415-4dc5-9283-1d2d8aa34625/e9d165af-abdf-49f9-beea-a51c27a6ec26"
       (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")

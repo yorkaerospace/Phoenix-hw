@@ -12,7 +12,7 @@
   )
 
 
-  (hierarchical_label "I2C" (shape bidirectional) (at 21.59 20.32 180)
+  (hierarchical_label "{I2C}" (shape bidirectional) (at 21.59 20.32 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 73a2b7a1-f0af-4ad1-b9c2-60dea2f547c3)
   )

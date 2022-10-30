@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -112,8 +118,15 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -350,7 +363,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -370,7 +383,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "YAR-Kicad-Libs/Borders/YAR_Border.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -446,6 +459,26 @@
     [
       "08617620-a510-41ce-835f-5c8118772225",
       "GPS"
+    ],
+    [
+      "c921aeaf-c09b-419f-a5b6-635236ca3ce1",
+      "GPIO & Pyro"
+    ],
+    [
+      "07407080-3859-4f49-803e-bf20d32797b6",
+      "P1"
+    ],
+    [
+      "533fc0e6-02d2-484b-a6da-8a100d2637f3",
+      "P2"
+    ],
+    [
+      "3ac3fd06-a205-40f8-9d62-a3a6352ef466",
+      "P3"
+    ],
+    [
+      "b41b52ff-a6dd-44b3-a76e-4b51a4898a2d",
+      "P4"
     ]
   ],
   "text_variables": {}

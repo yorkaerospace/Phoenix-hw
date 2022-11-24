@@ -460,10 +460,10 @@
   )
 
   (no_connect (at 96.52 78.74) (uuid 740f5b77-2351-4d7b-9738-16982bdf7b75))
-  (no_connect (at 96.52 76.2) (uuid 740f5b77-2351-4d7b-9738-16982bdf7b75))
+  (no_connect (at 96.52 76.2) (uuid 740f5b77-2351-4d7b-9738-16982bdf7b76))
   (no_connect (at 68.58 52.07) (uuid 9805db08-357b-4c51-ac37-84e266032069))
-  (no_connect (at 68.58 49.53) (uuid 9805db08-357b-4c51-ac37-84e266032069))
-  (no_connect (at 96.52 73.66) (uuid 9805db08-357b-4c51-ac37-84e266032069))
+  (no_connect (at 68.58 49.53) (uuid 9805db08-357b-4c51-ac37-84e26603206a))
+  (no_connect (at 96.52 73.66) (uuid 9805db08-357b-4c51-ac37-84e26603206b))
 
   (bus_entry (at 54.61 64.77) (size 2.54 -2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -939,7 +939,7 @@
     (property "Value" "30MHz" (id 1) (at 63.5 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 59.69 73.66 0)
+    (property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm" (id 2) (at 59.69 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 59.69 73.66 0)

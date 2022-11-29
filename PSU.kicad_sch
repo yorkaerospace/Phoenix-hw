@@ -1065,7 +1065,7 @@
     (uuid 759b1d4a-d7b7-458e-ae7b-2400f5cb45e0)
     (property "Reference" "J2" (id 0) (at 66.04 19.05 0))
     (property "Value" "Battery Connector" (id 1) (at 66.04 31.75 0))
-    (property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_4-G-5.08_1x04_P5.08mm_Vertical" (id 2) (at 66.04 26.67 0)
+    (property "Footprint" "YAR_Connectors:ScrewTerm_2.54x04" (id 2) (at 66.04 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 66.04 26.67 0)

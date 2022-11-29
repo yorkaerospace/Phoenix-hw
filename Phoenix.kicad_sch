@@ -103,11 +103,11 @@
     )
   )
 
-  (bus_alias "I2C" (members "SDA" "SCL"))
-  (bus_alias "SPI" (members "SCK" "Tx" "Rx" "CS[0..1]"))
-  (bus_alias "UART" (members "Tx" "Rx"))
-  (bus_alias "USB" (members "D+" "D-"))
   (bus_alias "INT" (members "Accel[1..2]" "Gyro[1..2]" "Radio"))
+  (bus_alias "USB" (members "D+" "D-"))
+  (bus_alias "UART" (members "Tx" "Rx"))
+  (bus_alias "SPI" (members "SCK" "Tx" "Rx" "CS[0..1]"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
   (junction (at 123.19 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 4b51506d-26eb-4486-94e6-1af60764a3f6)
   )
@@ -716,21 +716,6 @@
     (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/adb77ab1-a504-4fec-ad49-35d776213a97"
       (reference "#PWR059") (unit 1) (value "+BATT") (footprint "")
     )
-    (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/5edba2f2-1309-4507-9036-e3a7af791a9d"
-      (reference "#PWR060") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/c0d83049-4a03-4daa-836c-0a09c6439b68"
-      (reference "#PWR061") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/ecff02e1-2a65-447b-8cba-23b084f18569"
-      (reference "#PWR062") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/03a19c42-e773-47c9-a301-96ca06ee2541"
-      (reference "#PWR063") (unit 1) (value "+BATT") (footprint "")
-    )
-    (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/b7bbdfc8-7d20-4f51-8ad5-bf0c23726412"
-      (reference "#PWR064") (unit 1) (value "GND") (footprint "")
-    )
     (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/07407080-3859-4f49-803e-bf20d32797b6/0b7c8b84-61d8-459a-9804-c08652e32f71"
       (reference "#PWR065") (unit 1) (value "GND") (footprint "")
     )
@@ -879,16 +864,10 @@
       (reference "J1") (unit 1) (value "Mini USB Female") (footprint "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal")
     )
     (path "/688abbba-4944-4666-a573-328b4833167b/759b1d4a-d7b7-458e-ae7b-2400f5cb45e0"
-      (reference "J2") (unit 1) (value "Battery Connector") (footprint "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_4-G-5.08_1x04_P5.08mm_Vertical")
+      (reference "J2") (unit 1) (value "Battery Connector") (footprint "YAR_Connectors:ScrewTerm_2.54x04")
     )
     (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/042059ce-0398-41b2-b07d-a3afdc83a349"
-      (reference "J3") (unit 1) (value "Pyro Connectors") (footprint "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_10-G-5.08_1x10_P5.08mm_Vertical")
-    )
-    (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/38abb31b-76d6-4acf-ad6d-7ae90774f5f8"
-      (reference "J4") (unit 1) (value "Conn_01x05_Male") (footprint "")
-    )
-    (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/faf59026-a958-4fcf-98af-175f4703110b"
-      (reference "J5") (unit 1) (value "Conn_01x05_Male") (footprint "")
+      (reference "J3") (unit 1) (value "Pyro Connectors") (footprint "YAR_Connectors:ScrewTerm_2.54x10")
     )
     (path "/973e92e2-e415-4dc5-9283-1d2d8aa34625/c47b14a7-f4aa-44aa-bba9-bf0e2945fed9"
       (reference "JP2") (unit 1) (value "BOOTSEL") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")

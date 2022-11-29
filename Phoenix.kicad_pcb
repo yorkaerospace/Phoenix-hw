@@ -326,7 +326,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0bf88965-22ef-41a8-a555-7b9de4fb15e6)
-    (at 107.806685 43.265551)
+    (at 110.858 42.9575)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "JLC" "0603")
@@ -2038,7 +2038,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5d62fd34-2d8e-451e-91ae-b1d5b670a4cd)
-    (at 85.860789 52.541689 180)
+    (at 82.55 56.9275 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "accl.kicad_sch")
@@ -4142,7 +4142,7 @@
     )
   )
 
-  (gr_rect (start 68.58 73.66) (end 139.7 22.86) (layer "Dwgs.User") (width 0.15) (fill none) (tstamp 79d400be-dbde-4478-9692-2d3d67475e92))
+  (gr_rect (start 67.818 73.66) (end 139.7 22.86) (layer "Dwgs.User") (width 0.15) (fill none) (tstamp 79d400be-dbde-4478-9692-2d3d67475e92))
   (gr_line (start 68.58 48.26) (end 139.7 48.26) (layer "Dwgs.User") (width 0.15) (tstamp d6914d42-9d15-4bfc-b03a-a4909bea187b))
   (dimension (type aligned) (layer "Dwgs.User") (tstamp 084e8692-9cb2-49f1-bfe2-0ae1ac5a923b)
     (pts (xy 68.58 22.86) (xy 68.58 73.66))

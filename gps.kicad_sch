@@ -1125,7 +1125,7 @@
     (property "Value" "10k" (id 1) (at 107.95 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 103.632 63.5 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 103.632 63.5 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 105.41 63.5 0)

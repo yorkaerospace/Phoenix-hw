@@ -407,7 +407,6 @@
           "Net-(CM1-Pad2)",
           "Net-(CM2-Pad1)",
           "Net-(CM3-Pad1)",
-          "Net-(CR2-Pad1)",
           "Net-(LR1-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",

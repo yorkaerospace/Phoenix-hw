@@ -104,10 +104,10 @@
   )
 
   (bus_alias "INT" (members "Accel[1..2]" "Gyro[1..2]" "Radio"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
   (bus_alias "USB" (members "D+" "D-"))
   (bus_alias "SPI" (members "SCK" "Tx" "Rx" "CS[0..1]"))
   (bus_alias "UART" (members "Tx" "Rx"))
-  (bus_alias "I2C" (members "SDA" "SCL"))
   (junction (at 123.19 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 4b51506d-26eb-4486-94e6-1af60764a3f6)
   )
@@ -800,11 +800,8 @@
     (path "/094703ac-bbe4-46f1-9755-0d9526f1d0ba/1d96538b-5e25-4a95-8513-42866dec7bfd"
       (reference "C18") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/afb488ed-53ad-4114-b45c-f29a780b24e7/fa8ed65b-9d95-4d12-bf99-672358bec659"
-      (reference "C19") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/afb488ed-53ad-4114-b45c-f29a780b24e7/3640fa47-9d12-4fad-ab73-946c300ae4f6"
-      (reference "C20") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C20") (unit 1) (value "470nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/98b9ba68-a7d1-4405-8fd2-88489eecd46e/9f6f7d70-93ef-4828-86b5-b60cbba2edbf"
       (reference "C21") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")

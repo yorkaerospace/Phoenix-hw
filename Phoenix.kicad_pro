@@ -402,6 +402,7 @@
         "microvia_drill": 0.1,
         "name": "Radio",
         "nets": [
+          "Net-(AE1-Pad1)",
           "Net-(C22-Pad1)",
           "Net-(C22-Pad2)",
           "Net-(CM1-Pad2)",

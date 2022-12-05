@@ -103,11 +103,11 @@
     )
   )
 
-  (bus_alias "INT" (members "Accel[1..2]" "Gyro[1..2]" "Radio"))
-  (bus_alias "SPI" (members "SCK" "Tx" "Rx" "CS[0..1]"))
-  (bus_alias "USB" (members "D+" "D-"))
-  (bus_alias "I2C" (members "SDA" "SCL"))
   (bus_alias "UART" (members "Tx" "Rx"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
+  (bus_alias "USB" (members "D+" "D-"))
+  (bus_alias "SPI" (members "SCK" "Tx" "Rx" "CS[0..1]"))
+  (bus_alias "INT" (members "Accel[1..2]" "Gyro[1..2]" "Radio"))
   (junction (at 123.19 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 4b51506d-26eb-4486-94e6-1af60764a3f6)
   )
@@ -626,20 +626,11 @@
     (path "/e6787026-1265-4da6-83d0-fd4eabf2ecd9/04d01a25-a59d-41b7-ae5a-92f068c1c564"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
-    (path "/e6787026-1265-4da6-83d0-fd4eabf2ecd9/ca45bce3-2705-4116-be78-c327d90ddef6"
-      (reference "#PWR028") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/e6787026-1265-4da6-83d0-fd4eabf2ecd9/e3564a90-df24-4b45-9fc5-90d028bb4eea"
       (reference "#PWR029") (unit 1) (value "GND") (footprint "")
     )
-    (path "/e6787026-1265-4da6-83d0-fd4eabf2ecd9/bfec2b97-f9de-433e-b7dc-3ed809674148"
-      (reference "#PWR030") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/e6787026-1265-4da6-83d0-fd4eabf2ecd9/6021ee7c-c9d5-49e0-9264-e5ca39b6c4cc"
       (reference "#PWR031") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/094703ac-bbe4-46f1-9755-0d9526f1d0ba/4f757358-8156-4996-af70-e6ba82a5ea86"
-      (reference "#PWR032") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/094703ac-bbe4-46f1-9755-0d9526f1d0ba/74a564ac-65c9-48a5-9f6b-0e51b8bc49d9"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
@@ -742,6 +733,15 @@
     )
     (path "/c921aeaf-c09b-419f-a5b6-635236ca3ce1/b41b52ff-a6dd-44b3-a76e-4b51a4898a2d/c6993ce8-c95c-4593-87bd-eeefaf3b69c2"
       (reference "#PWR066") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/e6787026-1265-4da6-83d0-fd4eabf2ecd9/106918dd-5059-48a1-a87a-2f8d6c9c0a71"
+      (reference "#PWR0101") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/e6787026-1265-4da6-83d0-fd4eabf2ecd9/2997466c-da49-4cab-9f84-4296d6966336"
+      (reference "#PWR0102") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/094703ac-bbe4-46f1-9755-0d9526f1d0ba/0190052a-4875-4930-9246-3ef0467beaaa"
+      (reference "#PWR0103") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/0ac888d5-4182-4a88-8f62-40ce12e3896a/033f8e96-655f-48cc-bec2-cf5d31e9e978"
       (reference "AE1") (unit 1) (value "Antenna") (footprint "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal")

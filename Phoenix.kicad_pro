@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -406,8 +406,7 @@
           "Fire 1",
           "Fire 2",
           "Fire 3",
-          "Fire 4",
-          "Net-(J3-Pad10)"
+          "Fire 4"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

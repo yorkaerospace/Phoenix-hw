@@ -28,4 +28,9 @@ fp-info-cache
 *.xml
 *.csv
 
+# CAM Outputs
+*.gbr
+*.drl
+*.gbrjob
+
 \#auto_saved_files#

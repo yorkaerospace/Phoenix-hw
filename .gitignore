@@ -34,3 +34,6 @@ fp-info-cache
 *.gbrjob
 
 \#auto_saved_files#
+
+# Exported PNGs
+*.png

@@ -2,6 +2,11 @@
 
 This is the hardware repo for our new RP2040-based flight computer. We aim to use this to provide GPS tracking and parachute deployment on our next generation of rockets.
 
+<p align="center">
+  <img src="https://github.com/yorkaerospace/Phoenix-hw/blob/main/Phoenix%20Block%20Diagram.drawio.svg" />
+</p>
+
+
 ## Specs:
 MCU: [RP2040](https://docs.rs-online.com/f523/A700000007747462.pdf), 2 core ARM M0+ @ 133 MHz  
 Storage: 2 x [W25Q128](https://docs.rs-online.com/cdee/0900766b81622f85.pdf) Flash chips, 16MB each.   

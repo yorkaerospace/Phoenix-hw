@@ -18,7 +18,7 @@ Gyroscope: [I3G4250DTR](https://uk.rs-online.com/web/p/motion-sensor-ics/1116450
 Barometer: [MS563702BA03-50](https://uk.rs-online.com/web/p/pressure-sensor-ics/8937168)  
 
 <p align="center">
-  <img src="https://github.com/yorkaerospace/Phoenix-hw/blob/main/Phoenix%20Block%20Diagram.drawio.svg" />
+  <img src="https://github.com/yorkaerospace/Phoenix-hw/blob/main/Resources/Phoenix%20Block%20Diagram.drawio.svg" />
 </p>
 
 ## Known issues (Rev 1)
@@ -31,5 +31,3 @@ Revision 1, that was issued to JLCPCB in Jan 2023 has a few issues, in rough ord
 - Board is slightly large for some rockets. Would like to reduce size if possible.
 - BOM is *huge* making hand-placing components a bit of a headache.
 - No-one has mini USB nowadays.
-
-

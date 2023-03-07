@@ -26,7 +26,7 @@ Revision 1, that was issued to JLCPCB in Jan 2023 has a few issues, in rough ord
 - Gyroscope footprint is mirrored. Attempting to fit the gyroscope will cause a short to ground through the gyro.
 - Pyro channels are of an unproven design. 
   - Switching on the low side may cause accidental ignition if the ematch were to short to ground.
-  - MOSFETS are small for what they need to do.
+  - MOSFETS are small (?)
 - GPS footprint has pin 1 marker in the wrong location. Fortunately this is just an issue with the silkscreen, the actual footprint is okay.
 - Board is slightly large for some rockets. Would like to reduce size if possible.
 - BOM is *huge* making hand-placing components a bit of a headache.

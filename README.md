@@ -13,10 +13,9 @@ MCU: [RP2040](https://docs.rs-online.com/f523/A700000007747462.pdf), 2 core ARM 
 Storage: 2 x [W25Q128](https://docs.rs-online.com/cdee/0900766b81622f85.pdf) Flash chips, 16MB each.   
 Radio: [Si4468/7](https://docs.rs-online.com/cabb/0900766b813b9ac6.pdf)  
 GPS: [L70B-M29](https://docs.rs-online.com/74ea/0900766b8147dbe2.pdf)  
-Sensors:
-- [ADXL 200g](https://docs.rs-online.com/c088/0900766b812d72c4.pdf) Accelerometer
-- [I3G4250DTR](https://uk.rs-online.com/web/p/motion-sensor-ics/1116450) Gyroscope
-- [MS563702BA03-50](https://uk.rs-online.com/web/p/pressure-sensor-ics/8937168) Barometer
+Accelerometer: [ADXL 200g](https://docs.rs-online.com/c088/0900766b812d72c4.pdf)  
+Gyroscope: [I3G4250DTR](https://uk.rs-online.com/web/p/motion-sensor-ics/1116450)  
+Barometer: [MS563702BA03-50](https://uk.rs-online.com/web/p/pressure-sensor-ics/8937168)  
 
 <p align="center">
   <img src="https://github.com/yorkaerospace/Phoenix-hw/blob/main/Phoenix%20Block%20Diagram.drawio.svg" />
